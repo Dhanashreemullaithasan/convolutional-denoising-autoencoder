@@ -2,26 +2,46 @@
 
 ## AIM
 
-To develop a convolutional autoencoder for image denoising application.
+To develop a convolutional autoencoder for image-denoising applications.
 
 ## Problem Statement and Dataset
+An unsupervised artificial neural network called an autoencoder is trained to replicate its input into its output.
+
+An autoencoder encodes the image into a lower-dimensional representation and subsequently decodes the representation back to the original image.
+
+An autoencoder aims to obtain an output that is identical to the input. MaxPooling, convolutional, and upsampling layers are used by autoencoders to denoise images.
+
+The MNIST dataset is being used for this experiment. The handwritten numbers in the MNIST dataset are gathered together.
+
+The assignment is to categorize a given image of a handwritten digit into one of ten classes, which collectively represent the integer values 0 through 9.
+
+There are 60,000 handwritten, 28 X 28 digits in the dataset. Here, a convolutional neural network is constructed.
 
 ## Convolution Autoencoder Network Model
 
-Include the neural network model diagram.
+![image](https://github.com/user-attachments/assets/2e55cc4d-505d-46d7-b6c4-041cb606181c)
+
+![image](https://github.com/user-attachments/assets/0f3a1f54-87a2-4da3-84e7-e7118bb6c09c)
 
 ## DESIGN STEPS
 
 ### STEP 1:
+Import Libraries.
 
 ### STEP 2:
+Load the dataset.
 
 ### STEP 3:
+Create a model.
 
-Write your own steps
+### STEP 4:
+Compile the model and Display the images.
+
+### STEP 5:
+End the program.
 
 ## PROGRAM
-### Name:DHANASHREE M
+### Name: DHANASHREE M
 ### Register Number: 212221230018
 ```
 import pandas as pd
@@ -127,5 +147,6 @@ plt.show()
 
 
 
+## RESULT :
 
-## RESULT
+Thus, the convolutional autoencoder for image-denoising applications has been successfully developed.
